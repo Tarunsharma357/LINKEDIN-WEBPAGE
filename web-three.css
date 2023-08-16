@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    min-width: 1130px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+}
+
+.navbar {
+    height: 80px;
+    width:100vw ;
+   
+    display: flex;
+}
+.nav-right{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+    font-size: 15px;
+}
+
+.contents{
+    width: 25%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contents:hover{
+    border: 2px solid black;
+}
+.nav-left  img{
+    
+    height: 150px;
+    width: 250px;
+   
+    
+   
+}
+
+.image{
+    height: 170px;
+    width: 270px;
+   
+   
+}
+.image:hover{
+    border: 2px solid black;
+    
+}
+
+
+.entry{
+    height: 50px;
+    width: 350px;
+    padding-left: 250px;
+    border-radius: ;
+ 
+}
+.hero{
+    display: flex;
+}
+
+.hero-right img {
+    height: 550px;
+    width: 1000px;
+    padding-top:0 px;
+}
+
+.more-options{
+    display: flex;
+    height: 60vh;
+    background-color: #eae6df;
+    column-gap: 20px;
+    padding-top: 50px;
+    
+}
+
+.oleft{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    row-gap: 10px;
+    padding-left: 250px;
+    row-gap: 10px;
+
+
+}
+
+.oleft1{
+    font-size:40px ;
+    padding-top: 25px;
+}
+
+.oleft2{
+    font-size:20px ;
+    padding-top: 25px;
+}
+
+.oright{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top:25px ;
+    align-content: space-between;
+}
+
+.origt1{
+    height: 30% ;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px  black;
+
+}
+
+.foot1{
+    height: 20%;
+
+    
+
+    
+}
+.foot2{
+    width: 20%;
+    font-size: 20px;
+    
+
+}
+.foot3{
+    width: 20%;
+    font-size: 20px;
+    
+
+}
+.foot4{
+    width: 20%;
+    font-size: 20px;
+    
+
+}
+
+.press {
+    list-style: none;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.play:hover{
+    background-color:#6988a8 ;
+}
+.lastfoot{
+    height: 80px;
+    color: black;
+    font-size: 0.85rem;
+    background-color: white;
+    margin-top: 20px;
+}  
+.copyright{
+    text-align: center;
+    
+}
+
+.pages{
+    text-align: center;
+}
